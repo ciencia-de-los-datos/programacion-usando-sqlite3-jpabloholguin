@@ -39,4 +39,6 @@
 --  2  C  CCCE
 --
 --  >>> Escriba su codigo a partir de este punto <<<
--- 
+SELECT tbl1.K0, tbl1.c16
+FROM tbl1
+WHERE LOWER(SUBSTR(tbl1.c16, 1, 1)) = LOWER(tbl1.K0)
